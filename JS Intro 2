@@ -1,0 +1,23 @@
+// Human age variable
+const myAge = 15;
+
+// Early years of a dog value in human years
+let earlyYears = 2;
+
+earlyYears *= 10.5;
+
+// Sets the remaining human years age to be converted
+let laterYears = myAge - 2;
+
+// Later years of a dog value in human years
+laterYears *= 4;
+
+// Conversion from my age to dog years
+myAgeInDogYears = earlyYears + laterYears;
+
+// Create a name variable and then convert it to all lowercase
+let myName = "MATTEO";
+myName = myName.toLowerCase();
+
+// Outputs all the variables in a sentence to the console along with the result
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
