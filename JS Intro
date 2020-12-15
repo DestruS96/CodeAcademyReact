@@ -1,0 +1,19 @@
+// Todays forecast temperature in Kelvin
+const kelvin = 0;
+
+// Kelvin to Celsius conversion
+let celsius = kelvin - 273;
+
+// Celsius to Fahrenheit conversion
+let fahrenheit = celsius * (9/5) + 32;
+
+// Rounds the output of the Celsius to Fahrenheit conversion down to the nearest integer
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+
+let newton = celsius * (33/100);
+
+newton = Math.floor(newton);
+
+console.log(`The temperature is ${newton} degrees Newton`);
